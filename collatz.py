@@ -26,6 +26,7 @@ def best_collatz(fin_range = 1000, debut_range = 1):
     print(f"Meilleure chaine entre {debut_range} et {fin_range} : {best_nombre} avec une longueur de {best_longueur}")
 
 
+
     i = best_nombre
     chaine = [str(i)]
     while i != 1:
